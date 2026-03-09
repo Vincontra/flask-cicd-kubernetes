@@ -7,7 +7,7 @@ task_id = 1
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Task Manager API running with CI/CD pipeline"})
+    return jsonify({"message": "Hello this is Vinay"})
 
 
 @app.route("/tasks", methods=["GET"])
